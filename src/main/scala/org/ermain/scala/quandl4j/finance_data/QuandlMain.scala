@@ -19,26 +19,7 @@ object QuandlMain {
         .build()
     )
 
-    val quandlSession: QuandlSession = QuandlSession.create()
-
-    val data = quandlSession.getDataSet(
-      DataSetRequest.Builder.of("AAPL").withMaxRows(10)
-        .build()
-    )
-
-    println("Apple Stock Data.....")
-    println(data)
-
-//    val yearColumn: ShortColumn = table.dateColumn("Date").year()
-//    yearColumn.setName("Year")
-//
-//    table.addColumn(yearColumn)
-//
-//    val summaryMax = table.max("Adj. Close")
-//    val summaryMin = table.minimum("Adj. Close")
-//    val summaryVolume = table.sum("Volumne")
-
-
+    println(table)
   }
 
 
