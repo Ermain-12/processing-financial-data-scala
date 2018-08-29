@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="quandl_finance_data_processing$sources"
+		revision="0.1"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20180828210540"/>
+	<dependencies>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.6" status="release" pubdate="20180427043633" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="76">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2860" time="0" location="C:\Users\Ermain\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.12.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.6/scala-reflect-2.12.6.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="587933" time="0" location="C:\Users\Ermain\.ivy2\cache\org.scala-lang\scala-reflect\srcs\scala-reflect-2.12.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.6/scala-reflect-2.12.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalanlp" name="breeze-natives_2.12">
+			<revision name="1.0-RC2" status="release" pubdate="20180121003008" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalanlp.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="72">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3409" time="0" location="C:\Users\Ermain\.ivy2\cache\org.scalanlp\breeze-natives_2.12\ivy-1.0-RC2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/breeze-natives_2.12/1.0-RC2/breeze-natives_2.12-1.0-RC2.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.0-RC2" rev-constraint-default="1.0-RC2" rev-constraint-dynamic="1.0-RC2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="breeze-natives_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="253" time="940" location="C:\Users\Ermain\.ivy2\cache\org.scalanlp\breeze-natives_2.12\srcs\breeze-natives_2.12-1.0-RC2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/breeze-natives_2.12/1.0-RC2/breeze-natives_2.12-1.0-RC2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.activation" name="activation">
+			<revision name="1.1.1" status="release" pubdate="20091023142603" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://java.sun.com/javase/technologies/desktop/javabeans/jaf/index.jsp" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="70">
+				<license name="COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0" url="https://glassfish.dev.java.net/public/CDDLv1.0.html"/>
+				<metadata-artifact status="no" details="" size="2674" time="0" location="C:\Users\Ermain\.ivy2\cache\javax.activation\activation\ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/activation/activation/1.1.1/activation-1.1.1.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="activation" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="75650" time="0" location="C:\Users\Ermain\.ivy2\cache\javax.activation\activation\srcs\activation-1.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/activation/activation/1.1.1/activation-1.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="all">
+			<revision name="1.1.2" status="release" pubdate="20131126065721" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="56">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="8102" time="0" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil.netlib\all\ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/all/1.1.2/all-1.1.2.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="all" type="src" ext="jar" extra-classifier="sources" status="failed" details="" size="0" time="0"/>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_ref-linux-armhf">
+			<revision name="1.1" status="release" pubdate="20131011191624" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="67">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7594" time="0" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil.netlib\netlib-native_ref-linux-armhf\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_ref-linux-armhf" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="86855" time="893" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil.netlib\netlib-native_ref-linux-armhf\srcs\netlib-native_ref-linux-armhf-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_ref-linux-i686">
+			<revision name="1.1" status="release" pubdate="20131011191458" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="60">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7592" time="0" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil.netlib\netlib-native_ref-linux-i686\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_ref-linux-i686" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="86855" time="234" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil.netlib\netlib-native_ref-linux-i686\srcs\netlib-native_ref-linux-i686-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_system-linux-x86_64">
+			<revision name="1.1" status="release" pubdate="20131011192927" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="8037" time="0" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil.netlib\netlib-native_system-linux-x86_64\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_system-linux-x86_64" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="89748" time="1174" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil.netlib\netlib-native_system-linux-x86_64\srcs\netlib-native_system-linux-x86_64-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jimmoores" name="quandl-tablesaw">
+			<revision name="2.0.0" status="release" pubdate="20170901130854" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://quandl4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="41">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6096" time="0" location="C:\Users\Ermain\.ivy2\cache\com.jimmoores\quandl-tablesaw\ivy-2.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/jimmoores/quandl-tablesaw/2.0.0/quandl-tablesaw-2.0.0.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="2.0.0" rev-constraint-default="2.0.0" rev-constraint-dynamic="2.0.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="quandl-tablesaw" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4845" time="0" location="C:\Users\Ermain\.ivy2\cache\com.jimmoores\quandl-tablesaw\srcs\quandl-tablesaw-2.0.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/jimmoores/quandl-tablesaw/2.0.0/quandl-tablesaw-2.0.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="tech.tablesaw" name="tablesaw-core">
+			<revision name="0.9.2" status="release" pubdate="20170827214228" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5825" time="0" location="C:\Users\Ermain\.ivy2\cache\tech.tablesaw\tablesaw-core\ivy-0.9.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/tech/tablesaw/tablesaw-core/0.9.2/tablesaw-core-0.9.2.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="0.9.2" rev-constraint-default="0.9.2" rev-constraint-dynamic="0.9.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="tablesaw-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="235672" time="0" location="C:\Users\Ermain\.ivy2\cache\tech.tablesaw\tablesaw-core\srcs\tablesaw-core-0.9.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/tech/tablesaw/tablesaw-core/0.9.2/tablesaw-core-0.9.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.opencsv" name="opencsv">
+			<revision name="4.0" status="release" pubdate="20170812171828" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://opencsv.sf.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4611" time="0" location="C:\Users\Ermain\.ivy2\cache\com.opencsv\opencsv\ivy-4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/opencsv/opencsv/4.0/opencsv-4.0.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="4.0" rev-constraint-default="4.0" rev-constraint-dynamic="4.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="opencsv" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="114625" time="0" location="C:\Users\Ermain\.ivy2\cache\com.opencsv\opencsv\srcs\opencsv-4.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/opencsv/opencsv/4.0/opencsv-4.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-text">
+			<revision name="1.1" status="release" pubdate="20170519122929" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-text/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="12645" time="0" location="C:\Users\Ermain\.ivy2\cache\org.apache.commons\commons-text\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.1/commons-text-1.1.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-text" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="156040" time="0" location="C:\Users\Ermain\.ivy2\cache\org.apache.commons\commons-text\srcs\commons-text-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.1/commons-text-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.haifengl" name="smile-core">
+			<revision name="1.4.0" status="release" pubdate="20170806111251" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/haifengl/smile" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="61">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3478" time="0" location="C:\Users\Ermain\.ivy2\cache\com.github.haifengl\smile-core\ivy-1.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/haifengl/smile-core/1.4.0/smile-core-1.4.0.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.4.0" rev-constraint-default="1.4.0" rev-constraint-dynamic="1.4.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="smile-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="420085" time="0" location="C:\Users\Ermain\.ivy2\cache\com.github.haifengl\smile-core\srcs\smile-core-1.4.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/haifengl/smile-core/1.4.0/smile-core-1.4.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.haifengl" name="smile-graph">
+			<revision name="1.4.0" status="release" pubdate="20170806111302" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/haifengl/smile" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="62">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3054" time="0" location="C:\Users\Ermain\.ivy2\cache\com.github.haifengl\smile-graph\ivy-1.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/haifengl/smile-graph/1.4.0/smile-graph-1.4.0.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.4.0" rev-constraint-default="1.4.0" rev-constraint-dynamic="1.4.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="smile-graph" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11988" time="0" location="C:\Users\Ermain\.ivy2\cache\com.github.haifengl\smile-graph\srcs\smile-graph-1.4.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/haifengl/smile-graph/1.4.0/smile-graph-1.4.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.gson" name="gson">
+			<revision name="2.8.1" status="release" pubdate="20170530213900" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="55">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3635" time="0" location="C:\Users\Ermain\.ivy2\cache\com.google.code.gson\gson\ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.1/gson-2.8.1.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="gson" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="147468" time="0" location="C:\Users\Ermain\.ivy2\cache\com.google.code.gson\gson\srcs\gson-2.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.1/gson-2.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="23.0" status="release" pubdate="20170804172432" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="51">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7229" time="0" location="C:\Users\Ermain\.ivy2\cache\com.google.guava\guava\ivy-23.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava/23.0/guava-23.0.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="23.0" rev-constraint-default="23.0" rev-constraint-dynamic="23.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="guava" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1561297" time="0" location="C:\Users\Ermain\.ivy2\cache\com.google.guava\guava\srcs\guava-23.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava/23.0/guava-23.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.errorprone" name="error_prone_annotations">
+			<revision name="2.0.18" status="release" pubdate="20170228223423" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="59">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4058" time="0" location="C:\Users\Ermain\.ivy2\cache\com.google.errorprone\error_prone_annotations\ivy-2.0.18.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="2.0.18" rev-constraint-default="2.0.18" rev-constraint-dynamic="2.0.18" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="error_prone_annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="22892" time="0" location="C:\Users\Ermain\.ivy2\cache\com.google.errorprone\error_prone_annotations\srcs\error_prone_annotations-2.0.18-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jimmoores" name="quandl-core">
+			<revision name="2.0.0" status="release" pubdate="20170901130852" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://quandl4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="54">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6571" time="0" location="C:\Users\Ermain\.ivy2\cache\com.jimmoores\quandl-core\ivy-2.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/jimmoores/quandl-core/2.0.0/quandl-core-2.0.0.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="2.0.0" rev-constraint-default="2.0.0" rev-constraint-dynamic="2.0.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="quandl-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="55989" time="0" location="C:\Users\Ermain\.ivy2\cache\com.jimmoores\quandl-core\srcs\quandl-core-2.0.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/jimmoores/quandl-core/2.0.0/quandl-core-2.0.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-json-org">
+			<revision name="2.8.9" status="release" pubdate="20170612011810" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson-datatype-json-org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="68">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7972" time="0" location="C:\Users\Ermain\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-json-org\ivy-2.8.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-json-org/2.8.9/jackson-datatype-json-org-2.8.9.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-datatype-json-org" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8098" time="0" location="C:\Users\Ermain\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-json-org\srcs\jackson-datatype-json-org-2.8.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-json-org/2.8.9/jackson-datatype-json-org-2.8.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.geronimo.bundles" name="json">
+			<revision name="20090211_1" status="release" pubdate="20101217103013" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="53">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9579" time="0" location="C:\Users\Ermain\.ivy2\cache\org.apache.geronimo.bundles\json\ivy-20090211_1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/geronimo/bundles/json/20090211_1/json-20090211_1.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="20090211_1" rev-constraint-default="20090211_1" rev-constraint-dynamic="20090211_1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="json" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5394" time="0" location="C:\Users\Ermain\.ivy2\cache\org.apache.geronimo.bundles\json\srcs\json-20090211_1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/geronimo/bundles/json/20090211_1/json-20090211_1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.8.9" status="release" pubdate="20170611205351" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="75">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8225" time="0" location="C:\Users\Ermain\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\ivy-2.8.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="929913" time="0" location="C:\Users\Ermain\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\srcs\jackson-databind-2.8.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.8.9" status="release" pubdate="20170611204341" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7486" time="0" location="C:\Users\Ermain\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\ivy-2.8.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="2.8.9" rev-constraint-default="2.8.9" rev-constraint-dynamic="2.8.9" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="294668" time="0" location="C:\Users\Ermain\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\srcs\jackson-core-2.8.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.glassfish.jersey.core" name="jersey-client">
+			<revision name="2.25.1" status="release" pubdate="20170119122114" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="63">
+				<license name="CDDL+GPL License" url="http://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="36178" time="0" location="C:\Users\Ermain\.ivy2\cache\org.glassfish.jersey.core\jersey-client\ivy-2.25.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/2.25.1/jersey-client-2.25.1.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="2.25.1" rev-constraint-default="2.25.1" rev-constraint-dynamic="2.25.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jersey-client" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="128977" time="0" location="C:\Users\Ermain\.ivy2\cache\org.glassfish.jersey.core\jersey-client\srcs\jersey-client-2.25.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/2.25.1/jersey-client-2.25.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.haifengl" name="smile-data">
+			<revision name="1.4.0" status="release" pubdate="20170806111258" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/haifengl/smile" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3051" time="0" location="C:\Users\Ermain\.ivy2\cache\com.github.haifengl\smile-data\ivy-1.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/haifengl/smile-data/1.4.0/smile-data-1.4.0.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.4.0" rev-constraint-default="1.4.0" rev-constraint-dynamic="1.4.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="smile-data" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="44633" time="0" location="C:\Users\Ermain\.ivy2\cache\com.github.haifengl\smile-data\srcs\smile-data-1.4.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/haifengl/smile-data/1.4.0/smile-data-1.4.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.haifengl" name="smile-math">
+			<revision name="1.4.0" status="release" pubdate="20170806111253" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/haifengl/smile" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="57">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3041" time="0" location="C:\Users\Ermain\.ivy2\cache\com.github.haifengl\smile-math\ivy-1.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/haifengl/smile-math/1.4.0/smile-math-1.4.0.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.4.0" rev-constraint-default="1.4.0" rev-constraint-dynamic="1.4.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="smile-math" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="281671" time="0" location="C:\Users\Ermain\.ivy2\cache\com.github.haifengl\smile-math\srcs\smile-math-1.4.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/haifengl/smile-math/1.4.0/smile-math-1.4.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-math3">
+			<revision name="3.6.1" status="release" pubdate="20160317133511" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-math/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="12021" time="0" location="C:\Users\Ermain\.ivy2\cache\org.apache.commons\commons-math3\ivy-3.6.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="3.6.1" rev-constraint-default="3.6.1" rev-constraint-dynamic="3.6.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-math3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2514690" time="0" location="C:\Users\Ermain\.ivy2\cache\org.apache.commons\commons-math3\srcs\commons-math3-3.6.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.8.0" status="release" pubdate="20160704012053" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7030" time="0" location="C:\Users\Ermain\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\ivy-2.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="2.8.0" rev-constraint-default="2.8.0" rev-constraint-dynamic="2.8.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="57510" time="0" location="C:\Users\Ermain\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\srcs\jackson-annotations-2.8.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_system-linux-armhf">
+			<revision name="1.1" status="release" pubdate="20131011193120" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="8035" time="0" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil.netlib\netlib-native_system-linux-armhf\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_system-linux-armhf" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="86987" time="768" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil.netlib\netlib-native_system-linux-armhf\srcs\netlib-native_system-linux-armhf-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_system-win-x86_64">
+			<revision name="1.1" status="release" pubdate="20131011184207" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7608" time="0" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil.netlib\netlib-native_system-win-x86_64\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_system-win-x86_64" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="86986" time="799" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil.netlib\netlib-native_system-win-x86_64\srcs\netlib-native_system-win-x86_64-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_system-win-i686">
+			<revision name="1.1" status="release" pubdate="20131011184118" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7604" time="0" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil.netlib\netlib-native_system-win-i686\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_system-win-i686" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="86986" time="828" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil.netlib\netlib-native_system-win-i686\srcs\netlib-native_system-win-i686-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalanlp" name="breeze_2.12">
+			<revision name="1.0-RC2" status="release" pubdate="20180121003213" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalanlp.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="29">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4886" time="0" location="C:\Users\Ermain\.ivy2\cache\org.scalanlp\breeze_2.12\ivy-1.0-RC2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/breeze_2.12/1.0-RC2/breeze_2.12-1.0-RC2.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.0-RC2" rev-constraint-default="1.0-RC2" rev-constraint-dynamic="1.0-RC2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="breeze_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="535511" time="0" location="C:\Users\Ermain\.ivy2\cache\org.scalanlp\breeze_2.12\srcs\breeze_2.12-1.0-RC2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/breeze_2.12/1.0-RC2/breeze_2.12-1.0-RC2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spire-math" name="spire_2.12">
+			<revision name="0.13.0" status="release" pubdate="20161128233252" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spire-math.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3095" time="0" location="C:\Users\Ermain\.ivy2\cache\org.spire-math\spire_2.12\ivy-0.13.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/spire-math/spire_2.12/0.13.0/spire_2.12-0.13.0.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="0.13.0" rev-constraint-default="0.13.0" rev-constraint-dynamic="0.13.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="spire_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="251335" time="0" location="C:\Users\Ermain\.ivy2\cache\org.spire-math\spire_2.12\srcs\spire_2.12-0.13.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/spire-math/spire_2.12/0.13.0/spire_2.12-0.13.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.wendykierp" name="JTransforms">
+			<revision name="3.1" status="release" pubdate="20150908064553" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/wendykierp/JTransforms" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="58">
+				<license name="BSD 2-Clause" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="3759" time="0" location="C:\Users\Ermain\.ivy2\cache\com.github.wendykierp\JTransforms\ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/wendykierp/JTransforms/3.1/JTransforms-3.1.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="JTransforms" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="269350" time="0" location="C:\Users\Ermain\.ivy2\cache\com.github.wendykierp\JTransforms\srcs\JTransforms-3.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/wendykierp/JTransforms/3.1/JTransforms-3.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_system-linux-i686">
+			<revision name="1.1" status="release" pubdate="20131011193027" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="8033" time="0" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil.netlib\netlib-native_system-linux-i686\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_system-linux-i686" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="86987" time="815" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil.netlib\netlib-native_system-linux-i686\srcs\netlib-native_system-linux-i686-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="pl.edu.icm" name="JLargeArrays">
+			<revision name="1.5" status="release" pubdate="20150907082701" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://gitlab.com/ICM-VisLab/JLargeArrays" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="BSD 2-Clause" url="http://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="3308" time="0" location="C:\Users\Ermain\.ivy2\cache\pl.edu.icm\JLargeArrays\ivy-1.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/pl/edu/icm/JLargeArrays/1.5/JLargeArrays-1.5.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="JLargeArrays" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="76637" time="0" location="C:\Users\Ermain\.ivy2\cache\pl.edu.icm\JLargeArrays\srcs\JLargeArrays-1.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/pl/edu/icm/JLargeArrays/1.5/JLargeArrays-1.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="core">
+			<revision name="1.1.2" status="release" pubdate="20131126065411" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="4941" time="0" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil.netlib\core\ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="679224" time="0" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil.netlib\core\srcs\core-1.1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.glassfish.jersey.core" name="jersey-common">
+			<revision name="2.25.1" status="release" pubdate="20170119123045" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="CDDL+GPL License" url="http://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="36874" time="0" location="C:\Users\Ermain\.ivy2\cache\org.glassfish.jersey.core\jersey-common\ivy-2.25.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/2.25.1/jersey-common-2.25.1.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="2.25.1" rev-constraint-default="2.25.1" rev-constraint-dynamic="2.25.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jersey-common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="614333" time="0" location="C:\Users\Ermain\.ivy2\cache\org.glassfish.jersey.core\jersey-common\srcs\jersey-common-2.25.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/2.25.1/jersey-common-2.25.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.glassfish.hk2" name="hk2-locator">
+			<revision name="2.5.0-b32" status="release" pubdate="20170118130236" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="CDDL + GPLv2 with classpath exception" url="https://glassfish.java.net/nonav/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="27178" time="0" location="C:\Users\Ermain\.ivy2\cache\org.glassfish.hk2\hk2-locator\ivy-2.5.0-b32.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/2.5.0-b32/hk2-locator-2.5.0-b32.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="2.5.0-b32" rev-constraint-default="2.5.0-b32" rev-constraint-dynamic="2.5.0-b32" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="hk2-locator" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="132999" time="0" location="C:\Users\Ermain\.ivy2\cache\org.glassfish.hk2\hk2-locator\srcs\hk2-locator-2.5.0-b32-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/2.5.0-b32/hk2-locator-2.5.0-b32-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.javassist" name="javassist">
+			<revision name="3.20.0-GA" status="release" pubdate="20150625080935" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.javassist.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="77">
+				<license name="MPL 1.1" url="http://www.mozilla.org/MPL/MPL-1.1.html"/>
+				<license name="LGPL 2.1" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="3235" time="0" location="C:\Users\Ermain\.ivy2\cache\org.javassist\javassist\ivy-3.20.0-GA.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="3.20.0-GA" rev-constraint-default="3.20.0-GA" rev-constraint-dynamic="3.20.0-GA" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="javassist" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="521842" time="0" location="C:\Users\Ermain\.ivy2\cache\org.javassist\javassist\srcs\javassist-3.20.0-GA-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.glassfish.hk2.external" name="javax.inject">
+			<revision name="2.5.0-b32" status="release" pubdate="20170118130105" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
+				<license name="CDDL + GPLv2 with classpath exception" url="https://glassfish.java.net/nonav/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="27599" time="0" location="C:\Users\Ermain\.ivy2\cache\org.glassfish.hk2.external\javax.inject\ivy-2.5.0-b32.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/hk2/external/javax.inject/2.5.0-b32/javax.inject-2.5.0-b32.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="2.5.0-b32" rev-constraint-default="2.5.0-b32" rev-constraint-dynamic="2.5.0-b32" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="javax.inject" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="13157" time="0" location="C:\Users\Ermain\.ivy2\cache\org.glassfish.hk2.external\javax.inject\srcs\javax.inject-2.5.0-b32-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/hk2/external/javax.inject/2.5.0-b32/javax.inject-2.5.0-b32-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.glassfish.hk2" name="hk2-api">
+			<revision name="2.5.0-b32" status="release" pubdate="20170118130201" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="52">
+				<license name="CDDL + GPLv2 with classpath exception" url="https://glassfish.java.net/nonav/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="26874" time="0" location="C:\Users\Ermain\.ivy2\cache\org.glassfish.hk2\hk2-api\ivy-2.5.0-b32.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/2.5.0-b32/hk2-api-2.5.0-b32.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="2.5.0-b32" rev-constraint-default="2.5.0-b32" rev-constraint-dynamic="2.5.0-b32" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="hk2-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="271290" time="0" location="C:\Users\Ermain\.ivy2\cache\org.glassfish.hk2\hk2-api\srcs\hk2-api-2.5.0-b32-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/2.5.0-b32/hk2-api-2.5.0-b32-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.glassfish.hk2.external" name="aopalliance-repackaged">
+			<revision name="2.5.0-b32" status="release" pubdate="20170118130114" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="64">
+				<license name="CDDL + GPLv2 with classpath exception" url="https://glassfish.java.net/nonav/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="27518" time="0" location="C:\Users\Ermain\.ivy2\cache\org.glassfish.hk2.external\aopalliance-repackaged\ivy-2.5.0-b32.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.5.0-b32/aopalliance-repackaged-2.5.0-b32.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="2.5.0-b32" rev-constraint-default="2.5.0-b32" rev-constraint-dynamic="2.5.0-b32" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="aopalliance-repackaged" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="23640" time="0" location="C:\Users\Ermain\.ivy2\cache\org.glassfish.hk2.external\aopalliance-repackaged\srcs\aopalliance-repackaged-2.5.0-b32-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.5.0-b32/aopalliance-repackaged-2.5.0-b32-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.glassfish.hk2" name="hk2-utils">
+			<revision name="2.5.0-b32" status="release" pubdate="20170118130145" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="CDDL + GPLv2 with classpath exception" url="https://glassfish.java.net/nonav/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="26987" time="0" location="C:\Users\Ermain\.ivy2\cache\org.glassfish.hk2\hk2-utils\ivy-2.5.0-b32.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-utils/2.5.0-b32/hk2-utils-2.5.0-b32.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="2.5.0-b32" rev-constraint-default="2.5.0-b32" rev-constraint-dynamic="2.5.0-b32" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="hk2-utils" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="99861" time="0" location="C:\Users\Ermain\.ivy2\cache\org.glassfish.hk2\hk2-utils\srcs\hk2-utils-2.5.0-b32-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-utils/2.5.0-b32/hk2-utils-2.5.0-b32-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.inject" name="javax.inject">
+			<revision name="1" status="release" pubdate="20091013193500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/atinject/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="74">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2536" time="0" location="C:\Users\Ermain\.ivy2\cache\javax.inject\javax.inject\ivy-1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1" rev-constraint-default="1" rev-constraint-dynamic="1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="javax.inject" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10928" time="0" location="C:\Users\Ermain\.ivy2\cache\javax.inject\javax.inject\srcs\javax.inject-1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.glassfish.hk2" name="osgi-resource-locator">
+			<revision name="1.0.1" status="release" pubdate="20110113100008" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="65">
+				<license name="CDDL + GPLv2 with classpath exception" url="https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html"/>
+				<metadata-artifact status="no" details="" size="3211" time="0" location="C:\Users\Ermain\.ivy2\cache\org.glassfish.hk2\osgi-resource-locator\ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="osgi-resource-locator" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="13010" time="0" location="C:\Users\Ermain\.ivy2\cache\org.glassfish.hk2\osgi-resource-locator\srcs\osgi-resource-locator-1.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.glassfish.jersey.bundles.repackaged" name="jersey-guava">
+			<revision name="2.25.1" status="release" pubdate="20170119122430" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="CDDL+GPL License" url="http://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="36076" time="0" location="C:\Users\Ermain\.ivy2\cache\org.glassfish.jersey.bundles.repackaged\jersey-guava\ivy-2.25.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.25.1/jersey-guava-2.25.1.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="2.25.1" rev-constraint-default="2.25.1" rev-constraint-dynamic="2.25.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jersey-guava" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1308836" time="0" location="C:\Users\Ermain\.ivy2\cache\org.glassfish.jersey.bundles.repackaged\jersey-guava\srcs\jersey-guava-2.25.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.25.1/jersey-guava-2.25.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.annotation" name="javax.annotation-api">
+			<revision name="1.2" status="release" pubdate="20130426133829" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jcp.org/en/jsr/detail?id=250" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
+				<license name="CDDL + GPLv2 with classpath exception" url="https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html"/>
+				<metadata-artifact status="no" details="" size="4177" time="0" location="C:\Users\Ermain\.ivy2\cache\javax.annotation\javax.annotation-api\ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="javax.annotation-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="42311" time="0" location="C:\Users\Ermain\.ivy2\cache\javax.annotation\javax.annotation-api\srcs\javax.annotation-api-1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.ws.rs" name="javax.ws.rs-api">
+			<revision name="2.0.1" status="release" pubdate="20140807080813" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jax-rs-spec.java.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="CDDL 1.1" url="http://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<license name="GPL2 w/ CPE" url="http://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="4065" time="0" location="C:\Users\Ermain\.ivy2\cache\javax.ws.rs\javax.ws.rs-api\ivy-2.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="javax.ws.rs-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="265372" time="0" location="C:\Users\Ermain\.ivy2\cache\javax.ws.rs\javax.ws.rs-api\srcs\javax.ws.rs-api-2.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.mojo" name="animal-sniffer-annotations">
+			<revision name="1.14" status="release" pubdate="20150225115330" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4605" time="0" location="C:\Users\Ermain\.ivy2\cache\org.codehaus.mojo\animal-sniffer-annotations\ivy-1.14.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.14" rev-constraint-default="1.14" rev-constraint-dynamic="1.14" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="animal-sniffer-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1862" time="0" location="C:\Users\Ermain\.ivy2\cache\org.codehaus.mojo\animal-sniffer-annotations\srcs\animal-sniffer-annotations-1.14-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spire-math" name="spire-macros_2.12">
+			<revision name="0.13.0" status="release" pubdate="20161128233152" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spire-math.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3332" time="0" location="C:\Users\Ermain\.ivy2\cache\org.spire-math\spire-macros_2.12\ivy-0.13.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/spire-math/spire-macros_2.12/0.13.0/spire-macros_2.12-0.13.0.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="0.13.0" rev-constraint-default="0.13.0" rev-constraint-dynamic="0.13.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="spire-macros_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5407" time="0" location="C:\Users\Ermain\.ivy2\cache\org.spire-math\spire-macros_2.12\srcs\spire-macros_2.12-0.13.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/spire-math/spire-macros_2.12/0.13.0/spire-macros_2.12-0.13.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.chuusai" name="shapeless_2.12">
+			<revision name="2.3.2" status="release" pubdate="20161102055049" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/shapeless" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="66">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3263" time="0" location="C:\Users\Ermain\.ivy2\cache\com.chuusai\shapeless_2.12\ivy-2.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.2/shapeless_2.12-2.3.2.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="shapeless_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="163673" time="0" location="C:\Users\Ermain\.ivy2\cache\com.chuusai\shapeless_2.12\srcs\shapeless_2.12-2.3.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.2/shapeless_2.12-2.3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="macro-compat_2.12">
+			<revision name="1.1.1" status="release" pubdate="20161102044258" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/macro-compat" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2999" time="0" location="C:\Users\Ermain\.ivy2\cache\org.typelevel\macro-compat_2.12\ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="macro-compat_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1052" time="0" location="C:\Users\Ermain\.ivy2\cache\org.typelevel\macro-compat_2.12\srcs\macro-compat_2.12-1.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="machinist_2.12">
+			<revision name="0.6.1" status="release" pubdate="20161029111418" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/typelevel/machinist" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="69">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2819" time="0" location="C:\Users\Ermain\.ivy2\cache\org.typelevel\machinist_2.12\ivy-0.6.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.1/machinist_2.12-0.6.1.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="0.6.1" rev-constraint-default="0.6.1" rev-constraint-dynamic="0.6.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="machinist_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3546" time="0" location="C:\Users\Ermain\.ivy2\cache\org.typelevel\machinist_2.12\srcs\machinist_2.12-0.6.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.1/machinist_2.12-0.6.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jetbrains.kotlin" name="kotlin-stdlib-jre8">
+			<revision name="1.1.3-2" status="release" pubdate="20170704103847" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://kotlinlang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3047" time="0" location="C:\Users\Ermain\.ivy2\cache\org.jetbrains.kotlin\kotlin-stdlib-jre8\ivy-1.1.3-2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jre8/1.1.3-2/kotlin-stdlib-jre8-1.1.3-2.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.1.3-2" rev-constraint-default="1.1.3-2" rev-constraint-dynamic="1.1.3-2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="kotlin-stdlib-jre8" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3267" time="0" location="C:\Users\Ermain\.ivy2\cache\org.jetbrains.kotlin\kotlin-stdlib-jre8\srcs\kotlin-stdlib-jre8-1.1.3-2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jre8/1.1.3-2/kotlin-stdlib-jre8-1.1.3-2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jetbrains.kotlin" name="kotlin-stdlib-jre7">
+			<revision name="1.1.3-2" status="release" pubdate="20170704103846" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://kotlinlang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2887" time="0" location="C:\Users\Ermain\.ivy2\cache\org.jetbrains.kotlin\kotlin-stdlib-jre7\ivy-1.1.3-2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jre7/1.1.3-2/kotlin-stdlib-jre7-1.1.3-2.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.1.3-2" rev-constraint-default="1.1.3-2" rev-constraint-dynamic="1.1.3-2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="kotlin-stdlib-jre7" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1950" time="0" location="C:\Users\Ermain\.ivy2\cache\org.jetbrains.kotlin\kotlin-stdlib-jre7\srcs\kotlin-stdlib-jre7-1.1.3-2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jre7/1.1.3-2/kotlin-stdlib-jre7-1.1.3-2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sf.opencsv" name="opencsv">
+			<revision name="2.3" status="release" pubdate="20110728010018" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://opencsv.sf.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3390" time="0" location="C:\Users\Ermain\.ivy2\cache\net.sf.opencsv\opencsv\ivy-2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="opencsv" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="17058" time="0" location="C:\Users\Ermain\.ivy2\cache\net.sf.opencsv\opencsv\srcs\opencsv-2.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-lang3">
+			<revision name="3.6" status="release" pubdate="20170609054105" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-lang/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="13516" time="0" location="C:\Users\Ermain\.ivy2\cache\org.apache.commons\commons-lang3\ivy-3.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="3.6" rev-constraint-default="3.6" rev-constraint-dynamic="3.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-lang3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="543262" time="0" location="C:\Users\Ermain\.ivy2\cache\org.apache.commons\commons-lang3\srcs\commons-lang3-3.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_ref-win-x86_64">
+			<revision name="1.1" status="release" pubdate="20131011183904" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7167" time="0" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil.netlib\netlib-native_ref-win-x86_64\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_ref-win-x86_64" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="86854" time="831" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil.netlib\netlib-native_ref-win-x86_64\srcs\netlib-native_ref-win-x86_64-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-simple">
+			<revision name="1.8.0-beta2" status="release" pubdate="20180321180153" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="14">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5669" time="0" location="C:\Users\Ermain\.ivy2\cache\org.slf4j\slf4j-simple\ivy-1.8.0-beta2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.8.0-beta2/slf4j-simple-1.8.0-beta2.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.8.0-beta2" rev-constraint-default="1.8.0-beta2" rev-constraint-dynamic="1.8.0-beta2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="slf4j-simple" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11145" time="0" location="C:\Users\Ermain\.ivy2\cache\org.slf4j\slf4j-simple\srcs\slf4j-simple-1.8.0-beta2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.8.0-beta2/slf4j-simple-1.8.0-beta2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.8.0-beta2" status="release" pubdate="20180321180143" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5397" time="0" location="C:\Users\Ermain\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.8.0-beta2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.8.0-beta2/slf4j-api-1.8.0-beta2.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.8.0-beta2" rev-constraint-default="1.8.0-beta2" rev-constraint-dynamic="1.8.0-beta2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="52841" time="0" location="C:\Users\Ermain\.ivy2\cache\org.slf4j\slf4j-api\srcs\slf4j-api-1.8.0-beta2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.8.0-beta2/slf4j-api-1.8.0-beta2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalanlp" name="breeze-macros_2.12">
+			<revision name="1.0-RC2" status="release" pubdate="20180121003014" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalanlp.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3190" time="0" location="C:\Users\Ermain\.ivy2\cache\org.scalanlp\breeze-macros_2.12\ivy-1.0-RC2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.12/1.0-RC2/breeze-macros_2.12-1.0-RC2.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.0-RC2" rev-constraint-default="1.0-RC2" rev-constraint-dynamic="1.0-RC2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="breeze-macros_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9205" time="0" location="C:\Users\Ermain\.ivy2\cache\org.scalanlp\breeze-macros_2.12\srcs\breeze-macros_2.12-1.0-RC2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.12/1.0-RC2/breeze-macros_2.12-1.0-RC2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_ref-linux-x86_64">
+			<revision name="1.1" status="release" pubdate="20131011191310" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7596" time="0" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil.netlib\netlib-native_ref-linux-x86_64\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_ref-linux-x86_64" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="86855" time="222" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil.netlib\netlib-native_ref-linux-x86_64\srcs\netlib-native_ref-linux-x86_64-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.roaringbitmap" name="RoaringBitmap">
+			<revision name="0.6.47" status="release" pubdate="20170808161209" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lemire/RoaringBitmap" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4369" time="0" location="C:\Users\Ermain\.ivy2\cache\org.roaringbitmap\RoaringBitmap\ivy-0.6.47.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/roaringbitmap/RoaringBitmap/0.6.47/RoaringBitmap-0.6.47.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="0.6.47" rev-constraint-default="0.6.47" rev-constraint-dynamic="0.6.47" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="RoaringBitmap" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="147960" time="0" location="C:\Users\Ermain\.ivy2\cache\org.roaringbitmap\RoaringBitmap\srcs\RoaringBitmap-0.6.47-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/roaringbitmap/RoaringBitmap/0.6.47/RoaringBitmap-0.6.47-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_ref-osx-x86_64">
+			<revision name="1.1" status="release" pubdate="20131011183537" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7173" time="0" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil.netlib\netlib-native_ref-osx-x86_64\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_ref-osx-x86_64" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="89373" time="904" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil.netlib\netlib-native_ref-osx-x86_64\srcs\netlib-native_ref-osx-x86_64-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.6" status="release" pubdate="20180427044006" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="9">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2685" time="0" location="C:\Users\Ermain\.ivy2\cache\org.scala-lang\scala-library\ivy-2.12.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="992293" time="0" location="C:\Users\Ermain\.ivy2\cache\org.scala-lang\scala-library\srcs\scala-library-2.12.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.j2objc" name="j2objc-annotations">
+			<revision name="1.1" status="release" pubdate="20170118180659" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/google/j2objc/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3207" time="0" location="C:\Users\Ermain\.ivy2\cache\com.google.j2objc\j2objc-annotations\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="j2objc-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10481" time="0" location="C:\Users\Ermain\.ivy2\cache\com.google.j2objc\j2objc-annotations\srcs\j2objc-annotations-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="it.unimi.dsi" name="fastutil">
+			<revision name="7.2.1" status="release" pubdate="20170604163339" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://fasutil.di.unimi.it/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2776" time="0" location="C:\Users\Ermain\.ivy2\cache\it.unimi.dsi\fastutil\ivy-7.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/it/unimi/dsi/fastutil/7.2.1/fastutil-7.2.1.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="7.2.1" rev-constraint-default="7.2.1" rev-constraint-dynamic="7.2.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="fastutil" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8254596" time="0" location="C:\Users\Ermain\.ivy2\cache\it.unimi.dsi\fastutil\srcs\fastutil-7.2.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/it/unimi/dsi/fastutil/7.2.1/fastutil-7.2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_ref-win-i686">
+			<revision name="1.1" status="release" pubdate="20131011183716" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7163" time="0" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil.netlib\netlib-native_ref-win-i686\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_ref-win-i686" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="86854" time="815" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil.netlib\netlib-native_ref-win-i686\srcs\netlib-native_ref-win-i686-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="native_ref-java">
+			<revision name="1.1" status="release" pubdate="20131011183421" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7313" time="0" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil.netlib\native_ref-java\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="native_ref-java" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="28183" time="830" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil.netlib\native_ref-java\srcs\native_ref-java-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="netlib-native_system-osx-x86_64">
+			<revision name="1.1" status="release" pubdate="20131011184035" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7614" time="0" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil.netlib\netlib-native_system-osx-x86_64\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netlib-native_system-osx-x86_64" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="86986" time="768" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil.netlib\netlib-native_system-osx-x86_64\srcs\netlib-native_system-osx-x86_64-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="native_system-java">
+			<revision name="1.1" status="release" pubdate="20131011183956" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="71">
+				<license name="BSD 3 Clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7751" time="0" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil.netlib\native_system-java\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="native_system-java" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="28200" time="877" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil.netlib\native_system-java\srcs\native_system-java-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil" name="jniloader">
+			<revision name="1.1" status="release" pubdate="20131011163947" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/fommil/jniloader" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="73">
+				<license name="LGPL" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="3356" time="0" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil\jniloader\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/jniloader/1.1/jniloader-1.1.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jniloader" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="4441" time="940" location="C:\Users\Ermain\.ivy2\cache\com.github.fommil\jniloader\srcs\jniloader-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/jniloader/1.1/jniloader-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.threeten" name="threetenbp">
+			<revision name="1.3.6" status="release" pubdate="20170710163313" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.threeten.org/threetenbp" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="BSD 3-clause" url="https://raw.githubusercontent.com/ThreeTen/threetenbp/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="6502" time="0" location="C:\Users\Ermain\.ivy2\cache\org.threeten\threetenbp\ivy-1.3.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/threeten/threetenbp/1.3.6/threetenbp-1.3.6.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.3.6" rev-constraint-default="1.3.6" rev-constraint-dynamic="1.3.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="threetenbp" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="509753" time="0" location="C:\Users\Ermain\.ivy2\cache\org.threeten\threetenbp\srcs\threetenbp-1.3.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/threeten/threetenbp/1.3.6/threetenbp-1.3.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jetbrains.kotlin" name="kotlin-stdlib">
+			<revision name="1.1.3-2" status="release" pubdate="20170704103844" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://kotlinlang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2849" time="0" location="C:\Users\Ermain\.ivy2\cache\org.jetbrains.kotlin\kotlin-stdlib\ivy-1.1.3-2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.1.3-2/kotlin-stdlib-1.1.3-2.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.1.3-2" rev-constraint-default="1.1.3-2" rev-constraint-dynamic="1.1.3-2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="kotlin-stdlib" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="356269" time="0" location="C:\Users\Ermain\.ivy2\cache\org.jetbrains.kotlin\kotlin-stdlib\srcs\kotlin-stdlib-1.1.3-2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.1.3-2/kotlin-stdlib-1.1.3-2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jetbrains" name="annotations">
+			<revision name="13.0" status="release" pubdate="20131217071043" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.jetbrains.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2940" time="0" location="C:\Users\Ermain\.ivy2\cache\org.jetbrains\annotations\ivy-13.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="13.0" rev-constraint-default="13.0" rev-constraint-dynamic="13.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="17566" time="0" location="C:\Users\Ermain\.ivy2\cache\org.jetbrains\annotations\srcs\annotations-13.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.iq80.snappy" name="snappy">
+			<revision name="0.4" status="release" pubdate="20150713131910" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/dain/snappy" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3402" time="0" location="C:\Users\Ermain\.ivy2\cache\org.iq80.snappy\snappy\ivy-0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/iq80/snappy/snappy/0.4/snappy-0.4.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="0.4" rev-constraint-default="0.4" rev-constraint-dynamic="0.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="snappy" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="50113" time="0" location="C:\Users\Ermain\.ivy2\cache\org.iq80.snappy\snappy\srcs\snappy-0.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/iq80/snappy/snappy/0.4/snappy-0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-beanutils" name="commons-beanutils">
+			<revision name="1.9.3" status="release" pubdate="20160921122132" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://commons.apache.org/proper/commons-beanutils/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="12247" time="0" location="C:\Users\Ermain\.ivy2\cache\commons-beanutils\commons-beanutils\ivy-1.9.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.9.3" rev-constraint-default="1.9.3" rev-constraint-dynamic="1.9.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-beanutils" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="314687" time="0" location="C:\Users\Ermain\.ivy2\cache\commons-beanutils\commons-beanutils\srcs\commons-beanutils-1.9.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-collections" name="commons-collections">
+			<revision name="3.2.2" status="release" pubdate="20151112181126" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11218" time="0" location="C:\Users\Ermain\.ivy2\cache\commons-collections\commons-collections\ivy-3.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="3.2.2" rev-constraint-default="3.2.2" rev-constraint-dynamic="3.2.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-collections" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="646075" time="0" location="C:\Users\Ermain\.ivy2\cache\commons-collections\commons-collections\srcs\commons-collections-3.2.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.2" status="release" pubdate="20140705141228" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11725" time="0" location="C:\Users\Ermain\.ivy2\cache\commons-logging\commons-logging\ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom"/>
+				<caller organisation="default" name="quandl_finance_data_processing$sources" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-logging" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="73295" time="0" location="C:\Users\Ermain\.ivy2\cache\commons-logging\commons-logging\srcs\commons-logging-1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
